@@ -5,7 +5,7 @@ client.on('ready',  () => {
   console.log('By:M7md');
 });
 
-var prefix = 'البريفكس (:';
+var prefix = 'c';
 
 client.on('message', message => {
     if(message.content === prefix + 'createcolors') {
